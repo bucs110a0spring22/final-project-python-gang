@@ -10,7 +10,7 @@
 ## Presentation Slides
 https://docs.google.com/presentation/d/1IqmnRE14ZFnZqptrWbfXia5kWDbTcCo0-SPAfcaYtyM/edit?usp=sharing
 ## Demonstration 
-https://drive.google.com/file/d/17UhvMrJRBB8KA7nALUvyGRwyL8AbATtP/view?usp=sharing
+(https://drive.google.com/file/d/16wyXhOwe-LlX2XSjkm_R-PfFBPxwPL7g/view?usp=sharing)
 
 ### Team: Python Gang
 #### Team Members
@@ -33,10 +33,10 @@ Game Screen:
 ![IMG_3293](IMG_3294.jpg)
 Game Over:
 ![IMG_3294](IMG_3295.jpg)
-* << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. >>
+
     * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
 * << You should also have a screenshot of each screen for your final GUI >>
-
+ *  ![finalGUI](assets/finalGUI.jpg)
 ***        
 
 ## Program Design *(Backend Specialist)*
@@ -50,9 +50,7 @@ Game Over:
         * url for the module documentation
         * a short description of the module
 * Class Interface Design
-    * << A simple drawing that shows the class relationships in your code (see below for an example). >>
-    * ![IMG_3296](IMG_3296.jpg)
-        * ![class diagram](assets/class_diagram.jpg)
+    *  ![class diagram](assets/class_diagram.jpg)
     * This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm.
 * Classes
     * << You should have a list of each of your classes with a description. >>
@@ -62,11 +60,12 @@ Game Over:
 The Project is broken down into the following file structure:
 
 * main.py
+* .github
 * src
-    * <all of your python files should go here>
+    * controller.py, head.py, shirt.py, pant.py, shoe.py, randbutton.py
 * assets
-    * <all of your media, i.e. images, font files, etc, should go here)
     * Pants, Shirts, Shoes
+    * class diagram, exclass diagram, finalGUI
 * etc
     * <This is a catch all folder for things that are not part of your project, but you want to keep with your project. Your demo video should go here.>
 
@@ -97,8 +96,10 @@ In our testing strategy, we planned to run the random feature one by one as we i
 | Step          | Procedure     | Expected Results | Actual Results |
 |-----------|:-------------:| :-----------------| -------------- |
 |  1  | Click on run to begin | The GUI window opens and generates a random set of clothes|
-|  2  | Click on background  | The entire outfit changes to another random set of clothes |                 |
-|  3  | Click on the body  | Once again another random outfit would be generated. The chances of any piece of clothing being the same as the first two are very low. |                 |
-|  4  | Click on the logo in the top left  | Another random outfit will be generated different from the first three |               |
-|  5  | Click on stop code  | Code terminates properly |                 |
+|  2  | Click on the head on the screen | The head randomly changes to another head|         
+|  3  | Click on the shirt on the screen | The shirt randomly changes to another shirt
+|  4  | Click on the pants on the screen| The pant randomly changes to another pant
+|  5  | Click on the shoe on the screen | The shoe randomly changes to another shoe
+|  6  | Click on the randomize button  | A random outfit will be generated |               |
+|  7  | Click on stop code  | The GUI window closes |                 |
 
