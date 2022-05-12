@@ -4,8 +4,8 @@
 ## CS 110 Final Project
 ### Spring 2022
 ### Ever been indecisive and didn't know what outfit you wanted to wear for the day? This is the perfect project for you then. You import your clothing and then you can either randomize the speific clothing on whatever part of your body you desire of if you realy don't know what you want to wear you can randomize everything. 
-
-<< [repl](#) >>
+### Repl 
+https://github.com/bucs110a0spring22/final-project-python-gang
 
 ### Presentation Slides
 https://docs.google.com/presentation/d/1IqmnRE14ZFnZqptrWbfXia5kWDbTcCo0-SPAfcaYtyM/edit?usp=sharing
