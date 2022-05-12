@@ -1,59 +1,63 @@
-:warning: Everything between << >> needs to be replaced (remove << >> after replacing)
+p:warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
 # Random Outfit Generator 
 ## CS 110 Final Project
-### 2022
+### Spring 2022
 ### Ever been indecisive and didn't know what outfit you wanted to wear for the day? This is the perfect project for you then. You import your clothing and then you can either randomize the speific clothing on whatever part of your body you desire of if you realy don't know what you want to wear you can randomize everything. 
 
 << [repl](#) >>
 
-## Presentation Slides
+### Presentation Slides
 https://docs.google.com/presentation/d/1IqmnRE14ZFnZqptrWbfXia5kWDbTcCo0-SPAfcaYtyM/edit?usp=sharing
-## Demonstration 
-(https://drive.google.com/file/d/16wyXhOwe-LlX2XSjkm_R-PfFBPxwPL7g/view?usp=sharing)
+### Demonstration 
+https://drive.google.com/file/d/12WxcctraiXip6Q8LMF8KaGhnivgAicmS/view?usp=sharing
 
 ### Team: Python Gang
 #### Team Members
-Michelle Kang- Software Lead
-Christopher Micu- Front End Specialist
-Alexander Rodriguez- Back End Specialist
+* Michelle Kang- Software Lead
+* Christopher Micu- Front End Specialist
+* Alexander Rodriguez- Back End Specialist
 
 ***
 
 ## Project Description *(Software Lead)*
 
-For our final project, we created a random outfit generator using 3 different clothing pieces. We wanted to help those who have a hard time deciding what to wear for the day. Our program has a variety of shirts, pants, and shoes randomly generated and layed out for the user to get inspiration for their own outfits. Simply click run to get your first outfit, and if you do not like the first one try running the program again until you find the outift you like.
+For our final project, we created a random outfit generator using 3 different clothing pieces. We wanted to help those who have a hard time deciding what to wear for the day. Our program has a variety of shirts, pants, and shoes randomly generated and layed out for the user to get inspiration for their own outfits. Simply click run to get your first outfit, and if you do not like the first one try running the program again or clicking on the head, shirt, pant, or shoes to change it until you find the outift you like.
 
 ***    
 
 ## User Interface Design *(Front End Specialist)*
 Start Menu:
-![IMG_3290](IMG_3290.JPG)
-Game Screen:
-![IMG_3293](IMG_3294.jpg)
-Game Over:
-![IMG_3294](IMG_3295.jpg)
+![IMG_3290](assets/IMG_3290.jpg)
+Screen:
+![IMG_3293](assets/IMG_3293.jpg)
+Final Screen:
+![IMG_3294](assets/IMG_3295.jpg)
 
-    * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
-* << You should also have a screenshot of each screen for your final GUI >>
- *  ![finalGUI](assets/finalGUI.jpg)
+   
+* Final GUI
+   ![finalGUI](assets/finalGUI.jpg)
 ***        
 
 ## Program Design *(Backend Specialist)*
 
 
 * Non-Standard libraries
-  * pygame
-  * sys
-    * << You should have a list of any additional libraries or modules used (pygame, request) beyond non-standard python. >>
+  * N/A
     * For each additional module you should include
         * url for the module documentation
         * a short description of the module
+          
 * Class Interface Design
-    *  ![class diagram](assets/class_diagram.jpg)
-    * This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm.
+      ![class diagram](assets/class_diagram.jpg)
+      
 * Classes
-    * << You should have a list of each of your classes with a description. >>
+    * Controller- runs the mainloop for generating a ramdom outfit and stops when the outfit is made
+    * Head- contains the position and images of various heads
+    * Shirt- contains the position and images of various shirts
+    * Pant- contains the position and images of various pants
+    * Shoe- contains the position and images of various shoes
+    * ranButton- contains the position and image of the randomize button
 
 ## Project Structure *(Software Lead)*
 
@@ -62,9 +66,9 @@ The Project is broken down into the following file structure:
 * main.py
 * .github
 * src
-    * controller.py, head.py, shirt.py, pant.py, shoe.py, randbutton.py
+    * controller.py, head.py, shirt.py, pant.py, shoe.py, rbutton.py
 * assets
-    * Pants, Shirts, Shoes
+    * Pants, Shirts, Shoes, Heads, Randomize Button, Background 
     * class diagram, exclass diagram, finalGUI
 * etc
     * <This is a catch all folder for things that are not part of your project, but you want to keep with your project. Your demo video should go here.>
@@ -89,7 +93,7 @@ Alexander is the Backend Specialist in our team. He is responsible for the writt
 
 ## Testing *(Software Lead)*
 
-In our testing strategy, we planned to run the random feature one by one as we implemented each of the 3 clothing classes. Although it is not a class, the background was the very first function we implemented along with the desired screen size. After we were able to run the background and screen sucessfully we moved on. The shirt class was the first coded and ran multiple times by each of us to check for errors. We did this for each class before moving onto the next. 
+In our testing strategy, we planned to run the random feature one by one as we implemented each of the 3 clothing classes. Although it is not a class, the background was the very first function we implemented along with the desired screen size. After we were able to run the background and screen sucessfully we moved on. The shirt class was the first coded and ran multiple times using a user-based test to check for errors. We did this for each class before moving onto the next. 
 
 ## ATP
 
@@ -101,5 +105,5 @@ In our testing strategy, we planned to run the random feature one by one as we i
 |  4  | Click on the pants on the screen| The pant randomly changes to another pant
 |  5  | Click on the shoe on the screen | The shoe randomly changes to another shoe
 |  6  | Click on the randomize button  | A random outfit will be generated |               |
-|  7  | Click on stop code  | The GUI window closes |                 |
+|  7  | Click on stop  | The GUI window closes |                 |
 

@@ -84,3 +84,4 @@ class Controller:
                         head = self.headsOnly()
                     elif shoe_btn.rect.collidepoint(mouse_pos):
                         shoe = self.shoesOnly()
+

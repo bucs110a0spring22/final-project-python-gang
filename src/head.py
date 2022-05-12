@@ -1,6 +1,5 @@
 import pygame
 
-pygame.init()
 
 heads = [pygame.image.load(f'assets/CSHead{i}Trans.png') for i in range(1, 8)]
 

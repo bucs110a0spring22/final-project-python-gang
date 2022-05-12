@@ -1,6 +1,5 @@
 import pygame
 
-pygame.init()
 
 shirts = [pygame.image.load(f'assets/CSFShirts{i}Trans.png') for i in range(1, 51)]
 
@@ -16,3 +15,4 @@ class Shirt(pygame.sprite.Sprite):
 
     def draw(self, screen):
         screen.blit(self.surf, self.rect)
+

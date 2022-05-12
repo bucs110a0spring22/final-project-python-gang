@@ -1,8 +1,7 @@
 import pygame
 
-pygame.init()
 
-shoes = [pygame.image.load(f'assets/CSShoes{i}Trans.png') for i in range(1, 8)]
+shoes = [pygame.image.load(f'assets/CSShoes{i}Trans.png') for i in range(1, 14)]
 
 
 class Shoe(pygame.sprite.Sprite):

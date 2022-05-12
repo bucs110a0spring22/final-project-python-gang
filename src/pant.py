@@ -1,6 +1,5 @@
 import pygame
 
-pygame.init()
 
 pants = [pygame.image.load(f'assets/CSFPants{i}Trans.png') for i in range(1, 33)]
 
